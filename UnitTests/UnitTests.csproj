@@ -60,6 +60,7 @@
     <Compile Include="TestKlasičnogEliminatoraPolja.cs" />
     <Compile Include="TestFlote.cs" />
     <Compile Include="TestMreže.cs" />
+    <Compile Include="TestNapipac.cs" />
     <Compile Include="TestPolja.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestSlučajnogOdabiraPočetnogPolja.cs" />
