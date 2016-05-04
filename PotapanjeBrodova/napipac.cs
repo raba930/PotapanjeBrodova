@@ -14,9 +14,11 @@ namespace PotapanjeBrodova
         }
         public Polje UputiPucanj()
         {
-            // dohvati listu svih kandidata
+            List<Polje> polja = DajKandidateZaHorizontalniBrod().ToList();
+            polja.AddRange(DajKandidateZaVertikalniBrod());
 
-            // slučajnim odabirom izaberi jednoga
+            int index = slučajni.Next(0, polja.Count());
+            return polja[index];
 
         }
         public IEnumerable<Polje> DajKandidateZaHorizontalniBrod()
