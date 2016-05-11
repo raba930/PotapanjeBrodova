@@ -15,8 +15,8 @@ namespace PotapanjeBrodova
                 throw new ApplicationException();
             int izbor = slučajni.Next(0, ukupnoKandidata);
             if (izbor >= horizontalnaPolja.Count())
-                return new PoljeSmjer(Smjer.Vertikalno, vertikalnaPolja.ElementAt(izbor - horizontalnaPolja.Count()));
-            return new PoljeSmjer(Smjer.Horizontalno, horizontalnaPolja.ElementAt(izbor));
+                return new PoljeSmjer(Orijentacija.Vertikalno, vertikalnaPolja.ElementAt(izbor - horizontalnaPolja.Count()));
+            return new PoljeSmjer(Orijentacija.Horizontalno, horizontalnaPolja.ElementAt(izbor));
         }
 
         public IEnumerable<Polje> DajHorizontalnaPočetnaPolja(IEnumerable<Polje> slobodnaPolja, int duljinaBroda)

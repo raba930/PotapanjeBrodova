@@ -13,15 +13,15 @@ namespace UnitTests
             Mreža m = new Mreža(10, 10);
             Flota f = new Flota();
 
-            var p1 = m.DajPoljaZaBrod(Smjer.Horizontalno, new Polje(0, 0), 5);
+            var p1 = m.DajPoljaZaBrod(Orijentacija.Horizontalno, new Polje(0, 0), 5);
             Brod b1 = new Brod(p1);
             f.DodajBrod(b1);
 
-            var p2 = m.DajPoljaZaBrod(Smjer.Vertikalno, new Polje(1, 3), 4);
+            var p2 = m.DajPoljaZaBrod(Orijentacija.Vertikalno, new Polje(1, 3), 4);
             Brod b2 = new Brod(p2);
             f.DodajBrod(b2);
 
-            var p3 = m.DajPoljaZaBrod(Smjer.Horizontalno, new Polje(4, 5), 3);
+            var p3 = m.DajPoljaZaBrod(Orijentacija.Horizontalno, new Polje(4, 5), 3);
             Brod b3 = new Brod(p3);
             f.DodajBrod(b3);
 
@@ -37,11 +37,11 @@ namespace UnitTests
             Mreža m = new Mreža(10, 10);
             Flota f = new Flota();
 
-            var p1 = m.DajPoljaZaBrod(Smjer.Horizontalno, new Polje(0, 0), 5);
+            var p1 = m.DajPoljaZaBrod(Orijentacija.Horizontalno, new Polje(0, 0), 5);
             Brod b1 = new Brod(p1);
             f.DodajBrod(b1);
 
-            var p2 = m.DajPoljaZaBrod(Smjer.Vertikalno, new Polje(1, 3), 4);
+            var p2 = m.DajPoljaZaBrod(Orijentacija.Vertikalno, new Polje(1, 3), 4);
             Brod b2 = new Brod(p2);
             f.DodajBrod(b2);
 
@@ -54,11 +54,11 @@ namespace UnitTests
             Mreža m = new Mreža(10, 10);
             Flota f = new Flota();
 
-            var p1 = m.DajPoljaZaBrod(Smjer.Horizontalno, new Polje(0, 0), 5);
+            var p1 = m.DajPoljaZaBrod(Orijentacija.Horizontalno, new Polje(0, 0), 5);
             Brod b1 = new Brod(p1);
             f.DodajBrod(b1);
 
-            var p2 = m.DajPoljaZaBrod(Smjer.Vertikalno, new Polje(1, 3), 4);
+            var p2 = m.DajPoljaZaBrod(Orijentacija.Vertikalno, new Polje(1, 3), 4);
             Brod b2 = new Brod(p2);
             f.DodajBrod(b2);
 
@@ -72,11 +72,11 @@ namespace UnitTests
             Mreža m = new Mreža(10, 10);
             Flota f = new Flota();
 
-            var p1 = m.DajPoljaZaBrod(Smjer.Horizontalno, new Polje(0, 0), 3);
+            var p1 = m.DajPoljaZaBrod(Orijentacija.Horizontalno, new Polje(0, 0), 3);
             Brod b1 = new Brod(p1);
             f.DodajBrod(b1);
 
-            var p2 = m.DajPoljaZaBrod(Smjer.Vertikalno, new Polje(1, 3), 4);
+            var p2 = m.DajPoljaZaBrod(Orijentacija.Vertikalno, new Polje(1, 3), 4);
             Brod b2 = new Brod(p2);
             f.DodajBrod(b2);
 
@@ -92,11 +92,11 @@ namespace UnitTests
             Mreža m = new Mreža(10, 10);
             Flota f = new Flota();
 
-            var p1 = m.DajPoljaZaBrod(Smjer.Horizontalno, new Polje(0, 0), 3);
+            var p1 = m.DajPoljaZaBrod(Orijentacija.Horizontalno, new Polje(0, 0), 3);
             Brod b1 = new Brod(p1);
             f.DodajBrod(b1);
 
-            var p2 = m.DajPoljaZaBrod(Smjer.Vertikalno, new Polje(1, 3), 2);
+            var p2 = m.DajPoljaZaBrod(Orijentacija.Vertikalno, new Polje(1, 3), 2);
             Brod b2 = new Brod(p2);
             f.DodajBrod(b2);
 

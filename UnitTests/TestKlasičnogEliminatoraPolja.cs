@@ -15,7 +15,7 @@ namespace UnitTests
             int stupaca = 10;
             int duljinaBroda = 4;
             Polje početnoPolje = new Polje(3, 2);
-            Smjer smjer = Smjer.Vertikalno;
+            Orijentacija smjer = Orijentacija.Vertikalno;
 
             Mreža m = new Mreža(redaka, stupaca);
             var poljaBroda = m.DajPoljaZaBrod(smjer, početnoPolje, duljinaBroda);
@@ -39,7 +39,7 @@ namespace UnitTests
             int stupaca = 10;
             int duljinaBroda = 4;
             Polje početnoPolje = new Polje(0, 0);
-            Smjer smjer = Smjer.Horizontalno;
+            Orijentacija smjer = Orijentacija.Horizontalno;
 
             Mreža m = new Mreža(redaka, stupaca);
             var poljaBroda = m.DajPoljaZaBrod(smjer, početnoPolje, duljinaBroda);
@@ -62,7 +62,7 @@ namespace UnitTests
             int stupaca = 10;
             int duljinaBroda = 4;
             Polje početnoPolje = new Polje(0, stupaca - 1);
-            Smjer smjer = Smjer.Vertikalno;
+            Orijentacija smjer = Orijentacija.Vertikalno;
 
             Mreža m = new Mreža(redaka, stupaca);
             var poljaBroda = m.DajPoljaZaBrod(smjer, početnoPolje, duljinaBroda);
@@ -85,7 +85,7 @@ namespace UnitTests
             int stupaca = 10;
             int duljinaBroda = 4;
             Polje početnoPolje = new Polje(redaka - 1, stupaca - duljinaBroda);
-            Smjer smjer = Smjer.Horizontalno;
+            Orijentacija smjer = Orijentacija.Horizontalno;
 
             Mreža m = new Mreža(redaka, stupaca);
             var poljaBroda = m.DajPoljaZaBrod(smjer, početnoPolje, duljinaBroda);
@@ -108,7 +108,7 @@ namespace UnitTests
             int stupaca = 10;
             int duljinaBroda = 4;
             Polje početnoPolje = new Polje(redaka - duljinaBroda, 0);
-            Smjer smjer = Smjer.Vertikalno;
+            Orijentacija smjer = Orijentacija.Vertikalno;
 
             Mreža m = new Mreža(redaka, stupaca);
             var poljaBroda = m.DajPoljaZaBrod(smjer, početnoPolje, duljinaBroda);
