@@ -106,6 +106,7 @@ namespace UnitTests
             var polja = m.DajPoljaUZadanomSmjeru(1, 6, Smjer.Lijevo);
             Assert.AreEqual(6, polja.Count());
             Assert.IsTrue(polja.Contains(new Polje(1, 5)));
+
         }
 
         [TestMethod]
