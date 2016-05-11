@@ -5,13 +5,13 @@ namespace PotapanjeBrodova
     // pomoćna klasa koja pojednostavnjuje korištenje rezultata metode IzaberiPočetnoPolje.
     public class PoljeSmjer
     {
-        public PoljeSmjer(Smjer smjer, Polje polje)
+        public PoljeSmjer(Orijentacija smjer, Polje polje)
         {
             Smjer = smjer;
             Polje = polje;
         }
         public readonly Polje Polje;
-        public readonly Smjer Smjer;
+        public readonly Orijentacija Smjer;
     }
 
     public interface IOdabirPočetnogPoljaZaBrod
