@@ -23,21 +23,31 @@ namespace PotapanjeBrodova
             {
                 kandidati.Add(mreža.DajPoljaUZadanomSmjeru(redak, stupac, smjer));
             }
-
             kandidati.Sort((lista1, lista2) => lista2.Count() - lista1.Count());
             var grupe = kandidati.GroupBy(lista => lista.Count());
 
             var najdulji = grupe.First();
             if (najdulji.Count() == 1)
                 return najdulji.First().First();
+            int indeks = slučajni.Next(najdulji.Count());
+            return najdulji.ElementAt(indeks).First();
+        }
 
-            int index = slučajni.Next(najdulji.Count());
-            return najdulji.ElementAt(index).First();
-           
+        public void EvidentirajRezultat(RezultatGađanja rezultat)
+        {
+            throw new NotImplementedException();
         }
 
         Polje prvoPogođeno;
         Mreža mreža;
         Random slučajni = new Random();
+
+        public IEnumerable<Polje> PogođenaPolja
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
+        }
     }
 }
