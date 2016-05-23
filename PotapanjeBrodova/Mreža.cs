@@ -11,7 +11,7 @@ namespace PotapanjeBrodova
 
     public enum Smjer
     {
-        Gore,
+        Gore, 
         Desno,
         Dolje,
         Lijevo
